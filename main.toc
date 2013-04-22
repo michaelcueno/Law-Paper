@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Background}{3}
+\contentsline {subsection}{\numberline {2.1}Evolution of Behavioral Tracking}{3}
+\contentsline {subsection}{\numberline {2.2}The migration to smart phones}{4}
+\contentsline {subsection}{\numberline {2.3}Technical Discussion of Behavioral Tracking on SmartPhones}{4}
+\contentsline {section}{\numberline {3}Analysis}{5}
+\contentsline {section}{\numberline {4}prescription}{5}
+\contentsline {section}{\numberline {5}Conclusion}{5}
