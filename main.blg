@@ -3,40 +3,39 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: biblio.bib
+Warning--I didn't find a database entry for "?"
 Warning--empty author in Priv2013
 Warning--empty journal in Abi2012
-Too many commas in name 1 of "Justin Brookman, Sean Harvey, Erica Newland, Heather West" for entry W3C2012
-while executing---line 944 of file unsrt.bst
-You've used 7 entries,
+You've used 11 entries,
             1791 wiz_defined-function locations,
-            490 strings with 4651 characters,
-and the built_in function-call counts, 965 in all, are:
-= -- 85
-> -- 33
+            512 strings with 5072 characters,
+and the built_in function-call counts, 1384 in all, are:
+= -- 123
+> -- 55
 < -- 0
-+ -- 15
-- -- 8
-* -- 40
-:= -- 180
-add.period$ -- 25
-call.type$ -- 7
-change.case$ -- 7
++ -- 25
+- -- 14
+* -- 53
+:= -- 274
+add.period$ -- 36
+call.type$ -- 11
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 52
-empty$ -- 93
-format.name$ -- 8
-if$ -- 203
+cite$ -- 13
+duplicate$ -- 68
+empty$ -- 125
+format.name$ -- 14
+if$ -- 285
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 11
 missing$ -- 6
-newline$ -- 42
-num.names$ -- 6
-pop$ -- 16
+newline$ -- 61
+num.names$ -- 10
+pop$ -- 17
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 22
+skip$ -- 24
 stack$ -- 0
 substring$ -- 0
 swap$ -- 5
@@ -45,7 +44,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 6
-width$ -- 8
-write$ -- 79
-(There was 1 error message)
+while$ -- 10
+width$ -- 13
+write$ -- 117
+(There were 3 warnings)

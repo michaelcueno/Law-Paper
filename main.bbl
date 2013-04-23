@@ -1,11 +1,4 @@
-\begin{thebibliography}{1}
-
-\bibitem{Thru2010}
-Thurm and Y.~Kane.
-\newblock 'your apps are watching you'.
-\newblock {\em The Wall Street Journal}, Dec 2010.
-\newblock found at:
-  http://online.wsj.com/article/SB10001424052748704694004576020083703574602.html.
+\begin{thebibliography}{10}
 
 \bibitem{Priv2013}
 'privacy in the age of the smartphone'.
@@ -27,7 +20,7 @@ ABI Research.
   http://www.iab.net/media/file/IAB-Mobile-Devices-Report-final.pdf.
 
 \bibitem{W3C2012}
-Erica Newland Heather~West Justin~Brookman, Sean~Harvey.
+Justin Brookman, Sean Harvey, Erica Newland, and Heather West.
 \newblock 'tracking compliance and scope'.
 \newblock {\em WC3}, Oct 2012.
 \newblock found at: http://www.w3.org/TR/tracking-compliance.
@@ -45,5 +38,31 @@ Wall~Street Journal.
 \newblock found at:
   http://online.wsj.com/public/page/what-they-know-digital-privacy.html,
   On-Going.
+
+\bibitem{Trust2013}
+TRUSTe.
+\newblock 'truste privacy index'.
+\newblock found at: http://www.truste.com/us-consumer-confidence-index-2013/,
+  Jan 2013.
+
+\bibitem{Cens2012}
+Berkeley Law.
+\newblock Web privacy cencus.
+\newblock found at: http://www.law.berkeley.edu/privacycensus.htm, 2012.
+
+\bibitem{Trust2013b}
+Kevin Trilli.
+\newblock 'mobile tracking: How it works and why it’s different'.
+\newblock found at: http://www.truste.com/developer/?p=86, Feb 2013.
+
+\bibitem{Eff2010}
+Peter Eckersley.
+\newblock 'how unique is your web browser?'.
+\newblock {\em Electronic Frontier Foundation}, 2010.
+
+\bibitem{John2012}
+Johnathan Mayer.
+\newblock 'safari trackers'.
+\newblock found at: http://webpolicy.org/2012/02/17/safari-trackers/, Feb 2012.
 
 \end{thebibliography}
