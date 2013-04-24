@@ -1,11 +1,25 @@
 \contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.1}Why should we care?}{3}
 \contentsline {section}{\numberline {2}Background}{4}
 \contentsline {subsection}{\numberline {2.1}Evolution of Behavioral Tracking}{4}
 \contentsline {paragraph}{The migration to smart phones}{4}
 \contentsline {subsection}{\numberline {2.2}Technical Discussion of Behavioral Tracking on SmartPhones}{4}
 \contentsline {paragraph}{Web Browsing vs. Application Data.}{5}
 \contentsline {paragraph}{The Future of SmartPhone Tracking (Real time location data)}{6}
+\contentsline {subsection}{\numberline {2.3}Novel Issues to the Smartphone Case}{7}
+\contentsline {paragraph}{Small screen size}{7}
+\contentsline {paragraph}{Very personal}{7}
 \contentsline {section}{\numberline {3}Evaluation}{7}
-\contentsline {section}{\numberline {4}prescription}{7}
-\contentsline {subsection}{\numberline {4.1}Solutions section??}{7}
-\contentsline {section}{\numberline {5}Conclusion}{7}
+\contentsline {subsection}{\numberline {3.1}Something Needs To Be Done}{7}
+\contentsline {paragraph}{Users are weary of tracking}{7}
+\contentsline {paragraph}{Growth patterns}{8}
+\contentsline {paragraph}{Privacy Dangers}{8}
+\contentsline {subsection}{\numberline {3.2}Current Policy is not Working}{8}
+\contentsline {paragraph}{Overview of current protections}{8}
+\contentsline {paragraph}{Why notice and choice is pursued}{9}
+\contentsline {paragraph}{Failures of notice and choice}{9}
+\contentsline {subsection}{\numberline {3.3}Motivations Of Involved Players}{9}
+\contentsline {section}{\numberline {4}prescription}{9}
+\contentsline {subsection}{\numberline {4.1}Solutions section??}{9}
+\contentsline {paragraph}{FTC should push vendors to regulate apps}{9}
+\contentsline {section}{\numberline {5}Conclusion}{10}

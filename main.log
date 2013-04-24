@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.11.15)  23 APR 2013 02:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.11.15)  23 APR 2013 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -286,11 +286,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
+(Font)              <10.95> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 2.
 )
 \tf@toc=\write3
 \openout3 = `main.toc'.
@@ -315,7 +315,22 @@ Missing character: There is no ™ in font cmr10!
 
 LaTeX Warning: Citation `adn2012' on page 6 undefined on input line 33.
 
-[6]) (./analysis.tex) (./prescription.tex) (./conclusion.tex) (./main.bbl
+[6]) (./analysis.tex
+
+LaTeX Warning: Citation `Thru2010' on page 7 undefined on input line 13.
+
+[7]
+
+LaTeX Warning: Citation `Source' on page 8 undefined on input line 17.
+
+
+LaTeX Warning: Citation `wsj2011' on page 8 undefined on input line 30.
+
+[8]
+
+LaTeX Warning: Citation `ftc2011' on page 9 undefined on input line 32.
+
+) (./prescription.tex) (./conclusion.tex) (./main.bbl [9]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -323,7 +338,6 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-[7]
 Underfull \hbox (badness 2181) in paragraph at lines 23--27
 \OT1/cmr/m/n/10.95 'track-ing com-pli-ance and scope'.  \OT1/cmr/m/it/10.95 WC3
 \OT1/cmr/m/n/10.95 , Oct 2012.  found at:
@@ -352,19 +366,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--67
 []\OT1/cmr/m/n/10.95 Johnathan Mayer.  'sa-fari track-ers'.  found at:
  []
 
-) [8] (./main.aux)
+) [10] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2507 strings out of 495059
- 35526 string characters out of 3182029
+ 2511 strings out of 495059
+ 35562 string characters out of 3182029
  101145 words of memory out of 3000000
- 5649 multiletter control sequences out of 15000+200000
+ 5653 multiletter control sequences out of 15000+200000
  9763 words of font info for 34 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,6n,23p,870b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,6n,23p,870b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
@@ -372,10 +386,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (8 pages, 112096 bytes).
+Output written on main.pdf (10 pages, 120119 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

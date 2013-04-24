@@ -1,16 +1,16 @@
 \section{Background}
 
-\subsection{Evolution of Behavioral Tracking}
+	\subsection{Evolution of Behavioral Tracking}
 
 Over the years, advertising networks have competed to increase the granularity on their target groups to what is now, in certain cases, an individual bias. A market has sprung up with devilish speed to compete for access to personal information which can be sold as profiles to the highest bidders, typically advertising networks\hl{SOURCE}. This practice is known as behavioral data tracking and it got its start from the third party cookie used in web browsers.
 
 This unique character string lives under the hood of your web browser and can be used for legitimate reasons such as keeping you logged into a session with your bank’s website, but the technology can also be used to collect data about you across many different sites. The use of cookies to perform behavioral tracking has exploded in recent years and shows no signs of slowing down\cite{Cens2012}.
 
-\paragraph{The migration to smart phones}
+		\paragraph{The migration to smart phones}
 As the use of mobile platforms increase, so too will the market for personal data on mobile devices. A recent survey found that smartphone and tablet users watch, on average, 30 percent less TV and consume even less print media\cite{Abi2012}. This shift in consumption patterns along with the tantalizing personal data sets that mobile devices offer have pushed advertisers to invest heavily into mobile tracking technologies for the purposes of behavioral advertising\hl{SOURCE}.
    
 
-\subsection{Technical Discussion of Behavioral Tracking on SmartPhones}
+	\subsection{Technical Discussion of Behavioral Tracking on SmartPhones}
 
 A majority of tracking on mobile platforms is done through the applications that users download through their respective application vendors, most commonly, the Android Market and the App store from Apple. These applications often obtain access to permissioned data such as age, gender, location and the device’s unique identifier. For smartphones running the Android OS, this is typically the International Mobile Equipment Identifier (IMEI) and for Apple devices it is the UDID.
 
@@ -20,15 +20,15 @@ A troubling aspect to the use of these unique identifiers is that they cannot be
 
 At the moment the only technical protection that users have against this type tracking procedure is through permission awareness from the application vendors. The Android market for example, informs users what applications will access via a permissions screen prior to downloading the application. This is accomplished because Android makes developers request permission to all the data and resources that the application will require. The problem is that the average user is unaware of the security and privacy implications behind the permissions screen\hl{source}. Also, the permissions are commonly not read, and instead seen as a click through screen to installing an application. \hl{SOURCE}  
 
-\paragraph{Web Browsing vs. Application Data.}
+		\paragraph{Web Browsing vs. Application Data.}
 % TODO: Make distinction between web browsing and app usage, why this paper only deals with app usage. 
 An important distiction must be made between the two ways that personal data can be collected on mobile devices. In particular, data can be gathered through mobile web browsing or through the various applications that a user may install on their device. Although IOS blocks third party cookies, most android browsers along with Firefox$'$s mobile browser do not\cite{Trust2013b}.  Even in the case where thrid party cookies are disabled, there are various ways in which profilers can track a user through the mobile web browser. These techniques include `device fingerprinting'\cite{Eff2010} and leveraging a loophole in the Safari browser \cite{John2012} among a few other methods\cite{Trust2013b}. 
 
 These two seperate domains cause problems for advertising networks and consumers alike. Since they are indeed disjoint domains, a single device can appear to be two different users, one profile for mobile web and one for application use. So far the only documented way of connecting these two profiles is by having a user click through an in-app-advertisement which loads in that user$'$s browser, thus tying the two profiles together\cite{Trust2013b}. 
 However, the majority of data gathered in the mobile realm is through application use and not through browsing \hl{source}. For this reason along with the fact that behavioral tracking through mobile web browsing is not a novel issue that is brought up through analysing privacy in the mobile ecosystem, for the remainder of this paper, we will only concern ourselves with the application tracking domain. \hl{there's a better way to phrase this..} 
 
-\paragraph{The Future of SmartPhone Tracking (Real time location data)}
-The future in smartphone tracking holds some concerning characteristics for consumer privacy. Emerging technologies are commonly using location based information to provide services. SquareSpace, a payment system and competitor to Google wallet, uses location data to identify when a customer has entered a store and sends that information to the merchant along with previous shopping history so that merchant can better prepare for their transaction. This type of innovation has great implications for efficiency and customer satisfaction, but it also drags along horrendously private data sets that have a very high appeal to advertising networks.
+		\paragraph{The Future of SmartPhone Tracking (Real time location data)}
+The future in smartphone tracking holds some concerning characteristics for consumer privacy. Emerging technologies are commonly using location based information to provide services. SquareSpace, a payment system and competitor to Google wallet, uses location data to identify when a customer has entered a store and sends that information to the merchant along with previous shopping history so that merchant can better prepare for their transaction\hl{Source}. This type of innovation has great implications for efficiency and customer satisfaction, but it also drags along horrendously private data sets that have a very high appeal to advertising networks.
 
 Location data is the fourth most important aspect to whether a consumer will interact with an advertisement, falling underneath coupons, previous shopping history and favorite brands \cite{Abi2012}. A company called AdNext has already begun to capitalize on the insight that location data can provide. Using location data gathered by wireless access points in one of South Korea’s largest malls, COEX Mall, to build prediction models for the patrons, AdNext was able to deliver an ad based on the perceived next location of that patron\cite{adn2012}. The benefits of this approach are lucratively appealing to advertising companies and thus with the current legal climate and growth of location based services, a large market force is created around aggregating personal location data for the use of direct advertising.
 
@@ -37,6 +37,13 @@ Differences between Web Browser Tracking and Smartphone tracking
 The difference between traditional behavioral tracking through the use of third party cookies and the way that it is done via smartphones and tablets through applications is an important technical point that has implications on policy and privacy. In the case of cookies, the user has the ability to delete them and thus clear out the data that tracks them. NOT REALLY
 
 In some cases, companies have used the unorthodoxed flash cookie, also known as a super cookie, which is able to respawn regular cookies after they have been deleted
+
+
+	\subsection{Novel Issues to the Smartphone Case}
+
+		\paragraph{Small screen size} % Con
+
+		\paragraph{Very personal}     % Pro  (From ad network perspective )
 
 o Make the point that smart phones are typically used by only one individual, always on and with the user. (FTC Report)
 
