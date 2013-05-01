@@ -17,9 +17,8 @@
 \contentsline {subsection}{\numberline {3.2}Current Policy is not Working}{8}
 \contentsline {paragraph}{Overview of current protections}{8}
 \contentsline {paragraph}{Why notice and choice is pursued}{9}
-\contentsline {paragraph}{Failures of notice and choice}{9}
-\contentsline {subsection}{\numberline {3.3}Motivations Of Involved Players}{9}
-\contentsline {section}{\numberline {4}prescription}{9}
-\contentsline {subsection}{\numberline {4.1}Solutions section??}{9}
-\contentsline {paragraph}{FTC should push vendors to regulate apps}{9}
-\contentsline {section}{\numberline {5}Conclusion}{10}
+\contentsline {paragraph}{Failures of notice and choice}{10}
+\contentsline {section}{\numberline {4}prescription}{10}
+\contentsline {subsection}{\numberline {4.1}Solutions section??}{10}
+\contentsline {paragraph}{FTC should push vendors to regulate apps}{10}
+\contentsline {section}{\numberline {5}Conclusion}{11}
