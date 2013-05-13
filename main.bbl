@@ -3,7 +3,7 @@
 \bibitem{Priv2013}
 'privacy in the age of the smartphone'.
 \newblock {\em Privacy Rights Clearinghouse}, April 2013.
-\newblock found at:
+\newblock available at:
   https://www.privacyrights.org/fs/fs2b-cellprivacy.htm\#protections.
 
 \bibitem{Jenn2012}
@@ -16,44 +16,43 @@ ABI Research.
 \newblock 'mobile’s role in a consumer’s media day: Smartphones and tablets
   enable seamless digital lives'.
 \newblock July 2012.
-\newblock found at:
+\newblock available at:
   http://www.iab.net/media/file/IAB-Mobile-Devices-Report-final.pdf.
 
 \bibitem{W3C2012}
 Justin Brookman, Sean Harvey, Erica Newland, and Heather West.
 \newblock 'tracking compliance and scope'.
 \newblock {\em WC3}, Oct 2012.
-\newblock found at: http://www.w3.org/TR/tracking-compliance.
+\newblock available at: http://www.w3.org/TR/tracking-compliance.
 
 \bibitem{Moz2013}
 Alex Fowler.
 \newblock 'firefox getting smarter about third-party cookies'.
 \newblock {\em Mozilla}, Feb 2013.
-\newblock found at:
+\newblock available at:
   https://blog.mozilla.org/privacy/2013/02/25/firefox-getting-smarter-about-third-party-cookies.
 
 \bibitem{Wsj2013}
 Wall~Street Journal.
 \newblock 'what they know'.
-\newblock found at:
-  http://online.wsj.com/public/page/what-they-know-digital-privacy.html,
-  On-Going.
+\newblock See ongoing series, available at:
+  http://online.wsj.com/public/page/what-they-know-digital-privacy.html.
 
 \bibitem{Trust2013}
 TRUSTe.
 \newblock 'truste privacy index'.
-\newblock found at: http://www.truste.com/us-consumer-confidence-index-2013/,
-  Jan 2013.
+\newblock available at:
+  http://www.truste.com/us-consumer-confidence-index-2013/, Jan 2013.
 
 \bibitem{Cens2012}
 Berkeley Law.
 \newblock Web privacy cencus.
-\newblock found at: http://www.law.berkeley.edu/privacycensus.htm, 2012.
+\newblock available at: http://www.law.berkeley.edu/privacycensus.htm, 2012.
 
 \bibitem{Trust2013b}
 Kevin Trilli.
 \newblock 'mobile tracking: How it works and why it’s different'.
-\newblock found at: http://www.truste.com/developer/?p=86, Feb 2013.
+\newblock available at: http://www.truste.com/developer/?p=86, Feb 2013.
 
 \bibitem{Eff2010}
 Peter Eckersley.
@@ -63,6 +62,51 @@ Peter Eckersley.
 \bibitem{John2012}
 Johnathan Mayer.
 \newblock 'safari trackers'.
-\newblock found at: http://webpolicy.org/2012/02/17/safari-trackers/, Feb 2012.
+\newblock available at: http://webpolicy.org/2012/02/17/safari-trackers/, Feb
+  2012.
+
+\bibitem{meeker}
+Mary Meeker.
+\newblock 'internet trends'.
+\newblock May 2012.
+\newblock available at: http://www.kpcb.com/insights/2012-internet-trends.
+
+\bibitem{adage}
+Jason~Del Ray.
+\newblock 'forrester reduces its forecast for online ad spending'.
+\newblock Oct 2012.
+\newblock available at:
+  http://adage.com/article/digital/forrester-reduces-forecast-online-ad-spending/237647/.
+
+\bibitem{interactive_media}
+'interactive media advertising rates, effective february 27, 2012'.
+\newblock Advertisment quotes from triangle online network. Available at:
+  http://media2.newsobserver.com/advertising/pdf/InteractiveRatesQ12012.pdf,
+  2012.
+
+\bibitem{opera}
+Opera Software.
+\newblock 'the state of mobile advertising, q2 2012'.
+\newblock available at: http://business.opera.com/sma/2012/q2/, 2012.
+
+\bibitem{Thru2010}
+Scott Thurm and Yukari Kane.
+\newblock 'your apps are watchin g you'.
+\newblock {\em The Wall Street Journal}, Dec 2010.
+\newblock available at:
+  http://online.wsj.com/article/SB10001424052748704694004576020083703574602.html.
+
+\bibitem{ftc2011}
+Mamie~Kresses or~Michael~Ostheimer.
+\newblock 'mobile apps developer settles ftc charges it violated children's
+  privacy rule'.
+\newblock Aug 2011.
+\newblock available at: http://www.ftc.gov/opa/2011/08/w3mobileapps.shtm.
+
+\bibitem{fair}
+Fred~H. Cate.
+\newblock {\em Consumer Protection in the Age of the Information Economy}.
+\newblock Ashgate Pub Co, 2006.
+\newblock Chapter 13.
 
 \end{thebibliography}

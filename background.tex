@@ -7,7 +7,7 @@ Over the years, advertising networks have competed to increase the granularity o
 This unique character string lives under the hood of your web browser and can be used for legitimate reasons such as keeping you logged into a session with your bank’s website, but the technology can also be used to collect data about you across many different sites. The use of cookies to perform behavioral tracking has exploded in recent years and shows no signs of slowing down\cite{Cens2012}.
 
 		\paragraph{The migration to smart phones}
-As the use of mobile platforms increase, so too will the market for personal data on mobile devices. A recent survey found that smartphone and tablet users watch, on average, 30 percent less TV and consume even less print media\cite{Abi2012}. This shift in consumption patterns along with the tantalizing personal data sets that mobile devices offer have pushed advertisers to invest heavily into mobile tracking technologies for the purposes of behavioral advertising\hl{SOURCE}.
+As the use of mobile platforms increase, so too will the market for personal data on mobile devices. A recent survey found that smartphone and tablet users watch, on average, 30 percent less TV and consume even less print media\cite{Abi2012}. This shift in consumption patterns along with the tantalizing personal data sets that mobile devices offer, have pushed advertisers to invest heavily into mobile tracking technologies for the purposes of behavioral advertising\hl{SOURCE}.
    
 
 	\subsection{Technical Discussion of Behavioral Tracking on SmartPhones}
@@ -18,7 +18,7 @@ Application developers can access this identifier and send application usage sta
 
 A troubling aspect to the use of these unique identifiers is that they cannot be cleared or reset on a device much like cookies on a web browser can. In fact, some countries have made it illegal to change, or spoof, these unique identifiers for anti-theft reasons. \hl{SOURCE} This is in part, what makes smartphone tracking so appealing to advertisers. They are guaranteed a persistent way to identify an individual across multiple contexts.
 
-At the moment the only technical protection that users have against this type of tracking procedure is through permission awareness from the application vendors. The Android market for example, informs users what applications will access via a permissions screen prior to downloading the application. This is accomplished because Android makes developers request permission to all the data and resources that the application will require. The problem is that the average user is unaware of the security and privacy implications behind the permissions screen\hl{source}. Also, the permissions are commonly not read, and instead seen as a click through screen to installing an application. \hl{SOURCE}  
+At the moment the only technical protection that users have against this type of tracking procedure is through permission awareness from the application vendors. The Android market for example, informs users what types of data applications will access via a permissions screen prior to downloading the application. This is accomplished because Android makes developers request permission to all the data and resources that the application will require. The problem is that the average user is unaware of the security and privacy implications behind the permissions screen\hl{source}. Also, the permissions are commonly not read, and instead seen as a click through screen to installing an application. \hl{SOURCE}  
 
 		\paragraph{Web Browsing vs. Application Data.}
 % TODO: Make distinction between web browsing and app usage, why this paper only deals with app usage. 
@@ -28,11 +28,6 @@ An important distiction must be made between the two ways that personal data can
 
 These two seperate domains cause problems for advertising networks and consumers alike. Since they are indeed disjoint domains, a single device can appear to be two different users, one profile for mobile web and one for application use. So far the only documented way of connecting these two profiles is by having a user click through an in-app-advertisement which loads in that user$'$s browser while carrying along some metadata to link two profiles together\cite{Trust2013b}. 
 However, the majority of data gathered in the mobile realm is through application use and not through browsing \hl{source}. For this reason along with the fact that behavioral tracking through mobile web browsing is not a novel issue that is brought up through analysing privacy in the mobile ecosystem, for the remainder of this paper, we will only concern ourselves with the application tracking domain. \hl{there's a better way to phrase this..} 
-
-		\paragraph{The Future of SmartPhone Tracking (Real time location data)}
-The future in smartphone tracking holds some concerning characteristics for consumer privacy. Emerging technologies are commonly using location based information to provide services. SquareSpace, a payment system and competitor to Google wallet, uses location data to identify when a customer has entered a store and sends that information to the merchant along with previous shopping history so that merchant can better prepare for their transaction\hl{Source}. This type of innovation has great implications for efficiency and customer satisfaction, but it also drags along horrendously private data sets that have a very high appeal to advertising networks.
-
-Location data is the fourth most important aspect to whether a consumer will interact with an advertisement, falling underneath coupons, previous shopping history and favorite brands \cite{Abi2012}. A company called AdNext has already begun to capitalize on the insight that location data can provide. Using location data gathered by wireless access points in one of South Korea’s largest malls, COEX Mall, to build prediction models for the patrons, AdNext was able to deliver an ad based on the perceived next location of that patron\cite{adn2012}. The benefits of this approach are lucratively appealing to advertising companies and thus with the current legal climate and growth of location based services, a large market force is created around aggregating personal location data for the use of direct advertising.
 
 This is the kind of data collection that keeps privacy advocates awake at night. 
 
@@ -46,20 +41,31 @@ In some cases, companies have used the unorthodox flash cookie, also known as a 
 	\subsection{Novel Issues to the Smartphone Case}
 
 		\paragraph{Small screen size} % Con
-One significant problem that advertisers must combat when catering smartphones, is a small form factor. 
-Even while the norm for screen sizes seems to be falling into equilibrium around larger screens, they are still much smaller than most other delivery systems such as laptops and tablets. 
-Ad revenues are 
+One significant problem that advertisers must combat when to catering smartphones, is the small form factor. 
+Even while the norm for screen sizes seems to be falling into equilibrium around larger, more pixel dense screens, they are much smaller than other delivery systems such as laptops and tablets. This can make typical advertisements such as banners become overly obtrusive. Ads loose there effectiveness when they are perceived as a hindrance by the user\hl{source}; a very easy line to cross given the small and precious real estate on a typical smartphone. 
+
+Advertisers have been struggling with this issue since the consumers' adoption of the smartphone. In part, this issue contributes to the large gap between consumer usage and advertising dollars spent on mobile which was an estimated `opportunity loss' of \$20 billion dollars in May of 2012\cite{meeker}. 
+But while banner placement adverts still frequent many apps, companies are starting to use less conventional methods for delievering ads. Some techniques include notifications through the phone's operating system, rich media advertising, and audio ads where they can be applied. As the mobile advertising ecosystem matures, the methods of ad delivery will depart from the obtrusive, scaled down versions of web page ads and become more intimately tied to the phone's platform. 
+
+% 		\parapraph{Different Focus}  TODO: not sure if this is a good statement. (users also spend a lot of time playing games, browsing.. more passive )
+
+% Another, more subtle, problem that proliferates mobile advertising is a matter of attention. When a user sits down with a laptop and views a web page, ads can be placed on the screen with the intent of garnering some resonable amount of attention from the user. In the case of phones however, users are typically in more active use patterns, checking email, 
 
 		\paragraph{Very personal}     % Pro  (From ad network perspective )
 
 o Make the point that smart phones are typically used by only one individual, always on and with the user. (FTC Report)
 
+Already, we can see some examples of companies leveraging the smartphone's novel characteristics to create a more seducive advertising impression on consumers. 
+% The future in smartphone tracking holds some concerning characteristics for consumer privacy. 
+Emerging technologies are commonly using location based information to provide services. SquareSpace, a payment system and competitor to Google wallet, uses location data to identify when a customer has entered a store and sends that information to the merchant along with previous shopping history so that merchant can better prepare for their transaction\hl{Source}. This type of innovation has great implications for efficiency and customer satisfaction, but it also drags along horrendously private data sets that have a very high appeal to advertising networks.
+
+Location data is the fourth most important aspect to whether a consumer will interact with an advertisement, falling underneath coupons, previous shopping history and favorite brands \cite{Abi2012}. A company called AdNext has already begun to capitalize on the insight that location data can provide. Using location data gathered by wireless access points in one of South Korea’s largest malls, COEX Mall, to build prediction models for the patrons, AdNext was able to deliver an ad based on the perceived next location of that patron\cite{adn2012}. The benefits of this approach are lucratively appealing to advertising companies and thus with the current legal climate and growth of location based services, a large market force is created around aggregating personal location data for the use of direct advertising.
+
+
 		\paragraph{Conclusion}
 Despite its small screen size, the smartphone is becoming more and more attractive to advertisers as a platform.  
-One of the best metrics to measure the sucess and exposure of advertisments is through what is known in the industry as the CPI (Cost Per Impression). 
-This is the cost that advertisers must pay each time that an ad is served. Often this statistic is reported per one thousand impressions, or cost per milli (CPM). The average CPM across website banners is a rough statistc as it varies widely based on niche and exposure, however, for reference, in 2012 it was \$2.66\cite{adage}. For name brand sites such as yahoo.com, cars.com and others, the standard 300x250 advertisement is sold for \$7.00. Interestingly, advertisers can tack on an extra \$9.00 for behavioral targeted ads\cite{interactive_media} Compare this to a recent report from Opera Software, a 
-
-
+One of the best metrics to measure the success and exposure of advertisements is through what is known in the industry as the CPI (Cost Per Impression). 
+This is the cost that advertisers must pay each time that an ad is served. Often this statistic is reported per one thousand impressions, or cost per milli (CPM). The average CPM across website banners is a rough statistic as it varies widely based on niche and exposure, however, for reference, in 2012 it was \$2.66\cite{adage}. For name brand sites such as yahoo.com, cars.com and others, the standard 300 X 250 advertisement is sold for \$7.00. Interestingly, advertisers can tack on an extra \$9.00 for behavioral targeted ads\cite{interactive_media} Compare this to a recent report from Opera Software which states that the IPhone pulls in a \$2.85 CPM while phones running the Android OS received an average of \$2.10 CPM\cite{opera}. The report continues to extrapolate that rich media, screen resolution and better user interactivity drive the CPM rate. Certainly, as smartphone technology continues to grow, so too will these characteristics. Thus, the current trends suggest that even with its weaknesses, the smartphone will become a more dominant advertising delivery device in comming years. 
 
 % \section{Background}
 

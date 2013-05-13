@@ -5,20 +5,20 @@
 \contentsline {paragraph}{The migration to smart phones}{4}
 \contentsline {subsection}{\numberline {2.2}Technical Discussion of Behavioral Tracking on SmartPhones}{4}
 \contentsline {paragraph}{Web Browsing vs. Application Data.}{5}
-\contentsline {paragraph}{The Future of SmartPhone Tracking (Real time location data)}{6}
-\contentsline {subsection}{\numberline {2.3}Novel Issues to the Smartphone Case}{7}
-\contentsline {paragraph}{Small screen size}{7}
+\contentsline {subsection}{\numberline {2.3}Novel Issues to the Smartphone Case}{6}
+\contentsline {paragraph}{Small screen size}{6}
 \contentsline {paragraph}{Very personal}{7}
-\contentsline {section}{\numberline {3}Evaluation}{7}
-\contentsline {subsection}{\numberline {3.1}Something Needs To Be Done}{7}
-\contentsline {paragraph}{Users are weary of tracking}{7}
-\contentsline {paragraph}{Growth patterns}{8}
-\contentsline {paragraph}{Privacy Dangers}{8}
-\contentsline {subsection}{\numberline {3.2}Current Policy is not Working}{8}
-\contentsline {paragraph}{Overview of current protections}{8}
-\contentsline {paragraph}{Why notice and choice is pursued}{9}
-\contentsline {paragraph}{Failures of notice and choice}{10}
-\contentsline {section}{\numberline {4}prescription}{10}
-\contentsline {subsection}{\numberline {4.1}Solutions section??}{10}
-\contentsline {paragraph}{FTC should push vendors to regulate apps}{10}
-\contentsline {section}{\numberline {5}Conclusion}{11}
+\contentsline {paragraph}{Conclusion}{8}
+\contentsline {section}{\numberline {3}Evaluation}{8}
+\contentsline {subsection}{\numberline {3.1}Something Needs To Be Done}{8}
+\contentsline {paragraph}{Users are weary of tracking}{8}
+\contentsline {paragraph}{Growth patterns}{9}
+\contentsline {paragraph}{Privacy Dangers}{9}
+\contentsline {subsection}{\numberline {3.2}Current Policy is not Working}{9}
+\contentsline {paragraph}{Overview of current protections}{9}
+\contentsline {paragraph}{Why notice and choice is pursued}{10}
+\contentsline {paragraph}{Failures of notice and choice}{11}
+\contentsline {section}{\numberline {4}prescription}{11}
+\contentsline {paragraph}{Introduction}{11}
+\contentsline {paragraph}{FTC should push vendors to regulate apps}{12}
+\contentsline {section}{\numberline {5}Conclusion}{12}
