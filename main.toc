@@ -21,4 +21,8 @@
 \contentsline {section}{\numberline {4}prescription}{11}
 \contentsline {paragraph}{Introduction}{11}
 \contentsline {paragraph}{FTC should push vendors to regulate apps}{12}
-\contentsline {section}{\numberline {5}Conclusion}{12}
+\contentsline {subsection}{\numberline {4.1}Dangers of Explicit Statutes}{12}
+\contentsline {subsection}{\numberline {4.2}Building on Existing Statutes to Protect Mobile Data}{13}
+\contentsline {subsection}{\numberline {4.3}Technological Solution}{13}
+\contentsline {subsection}{\numberline {4.4}Regulatory Solution}{14}
+\contentsline {section}{\numberline {5}Conclusion}{14}

@@ -109,4 +109,11 @@ Fred~H. Cate.
 \newblock Ashgate Pub Co, 2006.
 \newblock Chapter 13.
 
+\bibitem{unlock}
+The Boston~Consulting Group.
+\newblock 'unlocking the value of personal data: From collection to usage'.
+\newblock Feb 2013.
+\newblock Location data was gathered by analyising texts and calls intercepted
+  by cell phone towers (not gps).
+
 \end{thebibliography}

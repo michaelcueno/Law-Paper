@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.6)  8 MAY 2013 16:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.6)  15 MAY 2013 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,7 +333,11 @@ LaTeX Warning: Citation `apec' on page 10 undefined on input line 41.
 
 LaTeX Warning: Citation `something' on page 11 undefined on input line 52.
 
-) (./prescription.tex [11]) (./conclusion.tex) (./main.bbl
+) (./prescription.tex [11]
+
+LaTeX Warning: Citation `???' on page 12 undefined on input line 8.
+
+[12] [13]) (./conclusion.tex [14]) (./main.bbl
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -363,7 +367,7 @@ Underfull \hbox (badness 2837) in paragraph at lines 36--40
 -ries,
  []
 
-[12]
+
 Underfull \hbox (badness 10000) in paragraph at lines 48--51
 []\OT1/cmr/m/n/10.95 Berkeley Law.  Web pri-vacy cen-cus.  avail-able at:
  []
@@ -376,7 +380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--67
 []\OT1/cmr/m/n/10.95 Johnathan Mayer.  'sa-fari track-ers'.  avail-able at:
  []
 
-
+[15]
 Underfull \hbox (badness 3826) in paragraph at lines 69--73
 []\OT1/cmr/m/n/10.95 Mary Meeker.  'in-ter-net trends'.  May 2012.  avail-able 
 at:
@@ -417,16 +421,16 @@ Overfull \hbox (63.13023pt too wide) in paragraph at lines 93--98
 0083703574602.html. 
  []
 
-) [13] [14] (./main.aux)
+) [16] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2519 strings out of 495059
- 35636 string characters out of 3182031
- 101173 words of memory out of 3000000
- 5661 multiletter control sequences out of 15000+200000
+ 2521 strings out of 495059
+ 35649 string characters out of 3182031
+ 101177 words of memory out of 3000000
+ 5663 multiletter control sequences out of 15000+200000
  9763 words of font info for 34 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,6n,23p,1155b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -437,10 +441,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (14 pages, 128823 bytes).
+Output written on main.pdf (16 pages, 135415 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
