@@ -25,4 +25,6 @@
 \contentsline {subsection}{\numberline {4.2}Building on Existing Statutes to Protect Mobile Data}{13}
 \contentsline {subsection}{\numberline {4.3}Technological Solution}{13}
 \contentsline {subsection}{\numberline {4.4}Regulatory Solution}{14}
-\contentsline {section}{\numberline {5}Conclusion}{14}
+\contentsline {paragraph}{Suggestions on Policy formation}{14}
+\contentsline {paragraph}{Concrete effects on smart phone privacy}{15}
+\contentsline {section}{\numberline {5}Conclusion}{15}
