@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.6)  15 MAY 2013 23:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.6)  17 MAY 2013 02:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -286,24 +286,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 2.
+(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
  [2]
-(./introduction.tex
-
-LaTeX Warning: Citation `?' on page 3 undefined on input line 9.
-
-) (./background.tex [3]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
+(./introduction.tex) (./background.tex [3]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -311,29 +304,9 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-
-LaTeX Warning: Citation `adn2012' on page 7 undefined on input line 62.
-
-[7]) (./evaluation.tex [8]
-
-LaTeX Warning: Citation `Source' on page 9 undefined on input line 17.
-
-
-LaTeX Warning: Citation `wsj2011' on page 9 undefined on input line 30.
-
-[9]
-
-LaTeX Warning: Citation `56' on page 10 undefined on input line 40.
-
-
-LaTeX Warning: Citation `apec' on page 10 undefined on input line 41.
-
-[10]) (./prescription.tex [11]
-
-LaTeX Warning: Citation `???' on page 12 undefined on input line 8.
-
-[12] [13] [14]) (./conclusion.tex) (./main.bbl
+ [7]) (./evaluation.tex
+[8] [9] [10]) (./prescription.tex [11] [12] [13] [14] [15]) (./conclusion.tex)
+(./main.bbl
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -357,90 +330,184 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--34
 smarter-
  []
 
-
+[16]
 Underfull \hbox (badness 2837) in paragraph at lines 36--40
 []\OT1/cmr/m/n/10.95 Wall Street Jour-nal.  'what they know'.  See on-go-ing se
 -ries,
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
+[]\OT1/cmr/m/n/10.95 Julia Angwin.  The web's new gold mine:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
+\OT1/cmr/m/n/10.95 Your se-crets.  July 2010.  avail-able at:
+ []
+
+
+Overfull \hbox (63.13023pt too wide) in paragraph at lines 48--53
+\OT1/cmr/m/n/10.95 http://online.wsj.com/article/SB1000142405274870394090457539
+5073512989404.html. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 []\OT1/cmr/m/n/10.95 Berkeley Law.  Web pri-vacy cen-cus.  avail-able at:
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 60--64
+[]\OT1/cmr/m/n/10.95 Mary Meeker.  'in-ter-net trends'.  May 2012.  avail-able 
+at:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
+[]\OT1/cmr/m/n/10.95 Scott Thurm and Yukari Kane.  'your apps are watch-ing
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 66--71
+\OT1/cmr/m/n/10.95 you'.  \OT1/cmr/m/it/10.95 The Wall Street Jour-nal\OT1/cmr/
+m/n/10.95 , Dec 2010.  avail-able at:
+ []
+
+
+Overfull \hbox (63.13023pt too wide) in paragraph at lines 66--71
+\OT1/cmr/m/n/10.95 http://online.wsj.com/article/SB1000142405274870469400457602
+0083703574602.html. 
  []
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 101--105
 []\OT1/cmr/m/n/10.95 Johnathan Mayer.  'sa-fari track-ers'.  avail-able at:
  []
 
-
-Underfull \hbox (badness 3826) in paragraph at lines 69--73
-[]\OT1/cmr/m/n/10.95 Mary Meeker.  'in-ter-net trends'.  May 2012.  avail-able 
-at:
+[17]
+Underfull \hbox (badness 7504) in paragraph at lines 114--120
+[]\OT1/cmr/m/n/10.95 Darrell Ether-ing-ton.  Study: Av-er-age dis-play size cli
+mb-ing
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 82--86
+Underfull \hbox (badness 6252) in paragraph at lines 114--120
+\OT1/cmr/m/n/10.95 on all de-vices ex-cept for mo-bile pcs.  Oct 2012.  avail-
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 122--127
+\OT1/cmr/m/n/10.95 avail-able at: http://mobilemarketingmagazine.com/content/mo
+bile-
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 129--132
+[]\OT1/cmr/m/n/10.95 This is out-lined in the fu-ture plans for the pay-ment sy
+s-
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 129--132
+\OT1/cmr/m/n/10.95 tem, Square. See Jack Dorsey's talk (founder of Square) at:
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 150--154
 []\OT1/cmr/m/n/10.95 'interactive me-dia ad-ver-tis-ing rates, ef-fec-tive febr
 u-ary 27, 2012'.
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 82--86
+Underfull \hbox (badness 3492) in paragraph at lines 150--154
 \OT1/cmr/m/n/10.95 Ad-ver-tis-ment quotes from tri-an-gle on-line net-work. Ava
 il-able at:
  []
 
 
-Overfull \hbox (29.03313pt too wide) in paragraph at lines 82--86
+Overfull \hbox (29.03313pt too wide) in paragraph at lines 150--154
 \OT1/cmr/m/n/10.95 http://media2.newsobserver.com/advertising/pdf/InteractiveRa
 tesQ12012.pdf,
  []
 
-
-Underfull \hbox (badness 5374) in paragraph at lines 93--98
-[]\OT1/cmr/m/n/10.95 Scott Thurm and Yukari Kane.  'your apps are watchin g
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
+[]\OT1/cmr/m/n/10.95 Felicia Williams.  Com-pli-ance to the fair in-
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 93--98
-\OT1/cmr/m/n/10.95 you'.  \OT1/cmr/m/it/10.95 The Wall Street Jour-nal\OT1/cmr/
-m/n/10.95 , Dec 2010.  avail-able at:
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
+\OT1/cmr/m/n/10.95 for-ma-tion prin-ci-ples.  2006.  avali-able at:
  []
 
 
-Overfull \hbox (63.13023pt too wide) in paragraph at lines 93--98
-\OT1/cmr/m/n/10.95 http://online.wsj.com/article/SB1000142405274870469400457602
-0083703574602.html. 
+Overfull \hbox (47.37437pt too wide) in paragraph at lines 186--191
+\OT1/cmr/m/n/10.95 http://www.ftc.gov/os/comments/behavioraladvertising/071010f
+eliciawilliams.pdf. 
  []
 
-[16]) [17] (./main.aux)
 
-LaTeX Warning: There were undefined references.
+Underfull \hbox (badness 3919) in paragraph at lines 205--211
+[]\OT1/cmr/m/n/10.95 The White House.  'con-sumer pri-vacy in a net-worked worl
+d:
+ []
 
- ) 
+
+Underfull \hbox (badness 6348) in paragraph at lines 205--211
+\OT1/cmr/m/n/10.95 A frame-work for pro-tect-ing pri-vacy and pro-mot-ing in-no
+-va-tion
+ []
+
+
+Underfull \hbox (badness 6927) in paragraph at lines 205--211
+\OT1/cmr/m/n/10.95 in the global dig-i-tal econ-omy'.  Feb 2012.  avail-able at
+:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--216
+[]\OT1/cmr/m/n/10.95 Application pri-vacy, pro-tec-tion and se-cu-rity act.  In
+-tro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--216
+\OT1/cmr/m/n/10.95 duced by Rep. John-son. More in-for-ma-tion avail-able at:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--216
+\OT1/cmr/m/n/10.95 http://hankjohnson.house.gov/press-release/rep-johnson-intro
+duces-
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Ž in font cmr10!
+) [19] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2521 strings out of 495059
- 35651 string characters out of 3182031
- 101181 words of memory out of 3000000
- 5663 multiletter control sequences out of 15000+200000
+ 2531 strings out of 495059
+ 35785 string characters out of 3182031
+ 101245 words of memory out of 3000000
+ 5673 multiletter control sequences out of 15000+200000
  9763 words of font info for 34 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,6n,23p,1155b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (17 pages, 136696 bytes).
+ 42i,6n,23p,1154b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (19 pages, 139051 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

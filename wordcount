@@ -1,9 +1,8 @@
-Smartphone and tablet platforms in the US have been caught in a privacy snafu
-with respect to behavioral tracking due to a lack of direct regulation [1] and
-very little consumer awareness [2]. As more users leave traditional consumption
-outlets such as TV, print and even web browser for mobile consumption [3],
-more research and development goes into procedures for tracking behaviors on
-these platforms.
+Privacy issues on smartphone platforms in the United States have been likened
+to the Wild West due to a lack of direct regulation [1] and very little consumer
+awareness [2]. As more users leave traditional consumption outlets such as
+TV, print and even web browser for mobile consumption [3], more research and
+development goes into procedures for tracking behaviors on these platforms.
 We have seen a healthy debate for consumer protection in the realms of
 web browser privacy with the introduction of do not track mechanisms [4] and
 default settings which block third party tracking cookies [5]. The success of
@@ -12,7 +11,7 @@ and beginnings of processes to deal with the privacy issues are encouraging.
 Unfortunately, it is less clear if the same thing can be said about the privacy
 issues in the mobile arena. Attribution for this can go, in part, to a lack of
 consumer awareness of the tracking practices that are carried out on mobile
-devices [?]. This is increasing alarming as today s smartphones have access
+devices [2]. This is increasing alarming as today s smartphones have access
 to much more personal data sets than do your typical web browser, such as
 contact lists, text messages and location data to name a few.
 The void of consumer awareness is begining to be filled with a growing
@@ -24,11 +23,10 @@ study [7], showing that over the past year, 72 percent of smartphone users
 are more concerned about privacy and 81 percent choose to avoid applications
 that they think will not protect their privacy.
 This paper illustrates the privacy implications that arise from the collection
-of personal, mobile data and suggests an approach to solving the issue from a
-policy standpoint.
-1.1
-Why should we care?
-Could talk about other countries policy laws here
+of personal, mobile data and suggests a two tiered approach to solving the issue.
+First, from a tecnhological, industry regulated perspective, and secondly, with
+some suggestions for leglislation to plug the holes that cannot be filled with
+the technological approach.
 32
 2.1
 Background
@@ -37,20 +35,21 @@ Over the years, advertising networks have competed to increase the granularity
 on their target groups to what is now, in certain cases, an individual bias. A
 market has sprung up with devilish speed to compete for access to personal
 information which can be sold as profiles to the highest bidders, typically
-advertising networks SOURCE . This practice is known as behavioral data
-tracking and it got its start from the third party cookie used in web browsers.
-This unique character string lives under the hood of your web browser and
-can be used for legitimate reasons such as keeping you logged into a session
-with your banks website, but the technology can also be used to collect data
-about you across many different sites. The use of cookies to perform behavioral
-tracking has exploded in recent years and shows no signs of slowing down [8].
-The migration to smart phones As the use of mobile platforms in-
-crease, so too will the market for personal data on mobile devices. A recent
-survey found that smartphone and tablet users watch, on average, 30 percent
-less TV and consume even less print media [3]. This shift in consumption pat-
-terns along with the tantalizing personal data sets that mobile devices offer,
-have pushed advertisers to invest heavily into mobile tracking technologies for
-the purposes of behavioral advertising SOURCE .
+advertising networks [8]. This practice is known as behavioral tracking and it
+got its start from the third party cookie used in web browsers.
+This unique character string lives under the hood of modern web browsers
+and can be used for legitimate reasons such as keeping users logged into a ses-
+sion with their bank ́
+s website, but the technology can also be used to collect
+data about consumers across many different sites. The use of cookies to per-
+form behavioral tracking has exploded in recent years and shows no signs of
+slowing down [9].
+As the use of mobile platforms increase, so too will the market for personal
+data on mobile devices. A recent survey found that smartphone and tablet
+users watch, on average, 30 percent less TV and consume even less print media
+[3]. This shift in consumption patterns along with the tantalizing personal data
+sets that mobile devices offer, have pushed advertisers to invest heavily into
+mobile tracking technologies for the purposes of behavioral advertising [10].
 2.2 Technical Discussion of Behavioral Tracking on
 SmartPhones
 A majority of tracking on mobile platforms is done through the applications
@@ -60,318 +59,381 @@ often obtain access to permissioned data such as age, gender, location and the
 devices unique identifier. For smartphones running the Android OS, this is
 typically the International Mobile Equipment Identifier (IMEI) and for Apple
 devices it is the UDID.
-4Application developers can access this identifier and send application usage
-statistics along with other permissioned data to advertising networks. When
-multiple applications send data to the same networks, all using the same iden-
-tifier, a secret dossier can be established and maintained by that ad network
-for each device SOURCE .
+Application developers can access this identifier and send application usage
+4statistics along with other permissioned data, such as contact lists or location
+data, to advertising networks. When multiple applications send data to the
+same networks, all using the same identifier, a secret dossier can be established
+and maintained by that ad network for each device [11]. These unique profiles
+that can reveal very personal things about a user such as political affiliation
+or even sexual preferences [12].
 A troubling aspect to the use of these unique identifiers is that they cannot
 be cleared or reset on a device much like cookies on a web browser can. In fact,
 some countries have made it illegal to change, or spoof, these unique identifiers
-for anti-theft reasons. SOURCE This is in part, what makes smartphone
-tracking so appealing to advertisers. They are guaranteed a persistent way to
-identify an individual across multiple contexts.
+for anti-theft reasons. [13] This is in part, what makes smartphone tracking so
+appealing to advertisers. They are guaranteed a persistent way to identify an
+individual across multiple contexts.
 At the moment the only technical protection that users have against this
 type of tracking procedure is through permission awareness from the appli-
 cation vendors. The Android market for example, informs users what types
-of data applications will access via a permissions screen prior to downloading
-the application. This is accomplished because Android makes developers re-
-quest permission to all the data and resources that the application will require.
-The problem is that the average user is unaware of the security and privacy
-implications behind the permissions screen source . Also, the permissions are
+of data applications will access via a permissions screen prior to download-
+ing the application. This is accomplished because Android makes developers
+request permission to all the data and resources that the application will re-
+quire. The problem is that the average user is unaware of the security and
+privacy implications behind the permissions screen. Also, the permissions are
 commonly not read, and instead seen as a click through screen to installing an
-application. SOURCE
+application [14].
 Web Browsing vs. Application Data. An important distiction must
 be made between the two ways that personal data can be collected on mobile
 devices. In particular, data can be gathered through mobile web browsing
 or through the various applications that a user may install on their device.
 Although IOS blocks third party cookies, most android browsers along with
-Firefox s mobile browser do not [9]. Even in the case where thrid party cookies
+Firefox s mobile browser do not [15]. Even in the case where thrid party cookies
 are disabled, there are various ways in which profilers can track a user through
-the mobile web browser. These techniques include ‘device fingerprinting’ [10]
-and leveraging a loophole in the Safari browser [11] among a few other methods
-[9].
+the mobile web browser. These techniques include ‘device fingerprinting’ [16]
+and leveraging a loophole in the Safari browser [17] among a few other methods
+[15].
 These two seperate domains cause problems for advertising networks and
-consumers alike. Since they are indeed disjoint domains, a single device can
-5appear to be two different users, one profile for mobile web and one for applica-
+5consumers alike. Since they are indeed disjoint domains, a single device can
+appear to be two different users, one profile for mobile web and one for applica-
 tion use. So far the only documented way of connecting these two profiles is by
 having a user click through an in-app-advertisement which loads in that user s
-browser while carrying along some metadata to link two profiles together [9].
-However, the majority of data gathered in the mobile realm is through appli-
-cation use and not through browsing source . For this reason along with the
+browser while carrying along some metadata to link two profiles together [15].
+However, the majority of data gathered in the mobile realm is through ap-
+plication use and not through browsing [18]. For this reason along with the
 fact that behavioral tracking through mobile web browsing is not a novel issue
 that is brought up through analysing privacy in the mobile ecosystem, for the
 remainder of this paper, we will only concern ourselves with the application
-tracking domain. there’s a better way to phrase this..
-This is the kind of data collection that keeps privacy advocates awake at
-night.
-Differences between Web Browser Tracking and Smartphone tracking
-The difference between traditional behavioral tracking through the use of
-third party cookies and the way that it is done via smartphones and tablets
-through applications is an important technical point that has implications on
-policy and privacy. In the case of cookies, the user has the ability to delete
-them and thus clear out the data that tracks them. NOT REALLY
-In some cases, companies have used the unorthodox flash cookie, also known
-as a super cookie, which is able to respawn regular cookies after they have been
-deleted
+tracking domain.
 2.3
 Novel Issues to the Smartphone Case
-Small screen size One significant problem that advertisers must com-
-bat when to catering smartphones, is the small form factor. Even while the
-norm for screen sizes seems to be falling into equilibrium around larger, more
-pixel dense screens, they are much smaller than other delivery systems such
+Small screen size One significant problem that advertisers must combat
+when to catering smartphones, is the small form factor. Even while the norm
+for screen sizes seems to be falling into equilibrium around larger, more pixel
+dense screens [19], they are much smaller than other delivery systems such
 as laptops and tablets. This can make typical advertisements such as banners
-become overly obtrusive. Ads loose there effectiveness when they are perceived
-as a hindrance by the user source ; a very easy line to cross given the small
-and precious real estate on a typical smartphone.
-Advertisers have been struggling with this issue since the consumers’ adop-
-tion of the smartphone. In part, this issue contributes to the large gap between
-6consumer usage and advertising dollars spent on mobile which was an esti-
-mated ‘opportunity loss’ of $20 billion dollars in May of 2012 [12]. But while
-banner placement adverts still frequent many apps, companies are starting to
-use less conventional methods for delievering ads. Some techniques include
-notifications through the phone’s operating system, rich media advertising,
-and audio ads where they can be applied. As the mobile advertising ecosys-
-tem matures, the methods of ad delivery will depart from the obtrusive, scaled
-down versions of web page ads and become more intimately tied to the phone’s
-platform.
-Very personal o Make the point that smart phones are typically used by
-only one individual, always on and with the user. (FTC Report)
+become overly obtrusive. Ads loose their effectiveness when they are perceived
+as a hindrance by the user [20]; a very easy line to cross given the small and
+precious real estate on a typical smartphone.
+Advertisers have been struggling with how to make effective use of the
+small screen size ever since the consumers’ adoption of the smartphone. In
+part, this issue explains the large gap between consumer usage and advertising
+dollars spent on mobile which was an estimated ‘opportunity loss’ (uncollected
+advertising revenue) of $20 billion dollars in May of 2012 [10]. But while
+banner adverts still frequent many apps, companies are starting to use less
+conventional methods for delivering ads. Some techniques include notifications
+through the phone’s operating system, rich media advertising, and audio ads
+where they can be applied. As the mobile advertising ecosystem matures, the
+methods of ad delivery will depart from the obtrusive, scaled down versions of
+web page ads and become more intimately tied to the phone’s platform.
+Another characteristic of smartphones that distinguish them from other
+6devices, is that they are very commonly used by only one individual, always
+on and nearly always with that individual. This makes them very attractive to
+the advertising ecosystem in that each device can be regarded as one specific
+person.
 Already, we can see some examples of companies leveraging the smart-
-phone’s novel characteristics to create a more seducive advertising impression
-on consumers. Emerging technologies are commonly using location based in-
-formation to provide services. SquareSpace, a payment system and competitor
-to Google wallet, uses location data to identify when a customer has entered
-a store and sends that information to the merchant along with previous shop-
-ping history so that merchant can better prepare for their transaction Source .
-This type of innovation has great implications for efficiency and customer sat-
-isfaction, but it also drags along horrendously private data sets that have a
-very high appeal to advertising networks.
+phone’s novel characteristics to create a more seductive advertising impression
+on consumers. Some emerging startups, for example, are commonly using lo-
+cation based information to provide services. Square, a payment system and
+competitor to Google wallet, uses location data to identify when a customer
+has entered a store and sends that information to the merchant along with
+previous shopping history so that merchant can better prepare for their trans-
+action [21]. This type of innovation has great implications for efficiency and
+customer satisfaction, but it also creates the externalities of private data sets
+that have a very high appeal to advertising networks. In fact, Square’s pri-
+vacy policy states that it will collect location, transaction and other types of
+data from users and share that personally-identifiable information with third
+parties such as advertising networks [22].
 Location data is the fourth most important aspect to whether a consumer
 will interact with an advertisement, falling underneath coupons, previous shop-
 ping history and favorite brands [3]. A company called AdNext has already
 begun to capitalize on the insight that location data can provide. Using lo-
 cation data gathered by wireless access points in one of South Koreas largest
 malls, COEX Mall, to build prediction models for the patrons, AdNext was
-able to deliver an ad based on the perceived next location of that patron [?].
+able to deliver an ad based on the perceived next location of that patron [23].
 The benefits of this approach are lucratively appealing to advertising com-
 panies and thus with the current legal climate and growth of location based
 services, a large market force is created around aggregating personal location
 data for the use of direct advertising.
-7Conclusion Despite its small screen size, the smartphone is becoming more
+Conclusion Despite its small screen size, the smartphone is becoming more
 and more attractive to advertisers as a platform. One of the best metrics
 to measure the success and exposure of advertisements is through what is
 known in the industry as the CPI (Cost Per Impression). This is the cost that
 advertisers must pay each time that an ad is served. Often this statistic is
-reported per one thousand impressions, or cost per milli (CPM). The average
+7reported per one thousand impressions, or cost per milli (CPM). The average
 CPM across website banners is a rough statistic as it varies widely based on
-niche and exposure, however, for reference, in 2012 it was $2.66 [13]. For
+niche and exposure, however, for reference, in 2012 it was $2.66 [24]. For
 name brand sites such as yahoo.com, cars.com and others, the standard 300 X
 250 advertisement is sold for $7.00. Interestingly, advertisers can tack on an
-extra $9.00 for behavioral targeted ads [14] Compare this to a recent report
+extra $9.00 for behavioral targeted ads [25] Compare this to a recent report
 from Opera Software which states that the IPhone pulls in a $2.85 CPM while
-phones running the Android OS received an average of $2.10 CPM [15]. The
+phones running the Android OS received an average of $2.10 CPM [26]. The
 report continues to extrapolate that rich media, screen resolution and better
 user interactivity drive the CPM rate. Certainly, as smartphone technology
 continues to grow, so too will these characteristics. Thus, the current trends
 suggest that even with its weaknesses, the smartphone will become a more
 dominant advertising delivery device in comming years.
 3
-3.1
 Evaluation
-Something Needs To Be Done
-Users are weary of tracking One of the most troubling aspects to the
-issue of privacy on mobile devices is the gaping distance between consumers’
-expectations of privacy and the actual reality of privacy on smartphones. In a
-survey taken last year, 78 percent of cell phone users think that their personal
-data such as contact lists, location data, name, address, etc, is at least as
-private as the data on their home computers [2]. This finding has a small caveat
-in that it assumes the survey respondents consider their home computers to
-be private, but this hardly seems like a controversial claim. If that is the
-case, then it would follow that the majority of smartphone users regard their
-personal information as secure and private.
+One of the most troubling aspects to the issue of privacy on mobile devices
+is the gaping distance between consumers’ expectations of privacy and the
+actual reality of privacy on smartphones. In a survey taken last year, 78
+percent of cell phone users think that their personal data such as contact
+lists, location data, name, address, etc, is at least as private as the data on
+their home computers [2]. This finding has a small caveat in that it assumes
+the survey respondents consider their home computers to be private, but this
+hardly seems like a controversial claim. If that is the case, then it would follow
+that the majority of smartphone users regard their personal information as
+secure and private.
 In reality, underneath the hood of the mobile ecosystem, many applications
-8obtain and use personal information on a regular basis. A study done by The
+obtain and use personal information on a regular basis. A study done by The
 Wall Street Journal analyzed 101 popular apps and showed that 56 applications
-sent the phone’s unique identifier to third parties without notice or consent [16].
+sent the phone’s unique identifier to third parties without notice or consent [11].
 Many of these applications also attached many other types of personal data to
 the unique identifiers such as contacts, age, and gender before sending them to
 various companies. Since then, however, many of the application developers
 outed by the publication have adopted privacy policies. While it is beneficial
-to have the privacy practices documented in this form, the very mechanism of
+8to have the privacy practices documented in this form, the very mechanism of
 notice and choice is failing the average consumer, a point discussed further on.
-Growth patterns Despite the fact that consumer awareness is rising with
-respect to data collection on mobile platforms, the trends of collection and
-aggregation continues to rise [?]. This should not be taken as a suprise as
-advertising networks have largely been given the go ahead from a legal per-
-spective. The commonly cited case bieng DoubleClick vs Bose determined
-difinitively that tracking a user’s behavior amongst multiple contexts cannot
-be ciminalized as long as that collection is not tortious FACT CHECK . Cer-
-tianly, the demand placed on targeted advertising via ad networks is not going
-to go away. Thus, we will continue to see data collection companies compete
-and innovate over ways to more efficiently and more preciscly pinpoint your
-interests and thus, your suceptibility to interact with an advertisement.
-Privacy Dangers One of the more violating practices that is emerging is
-the use of location data to serve more relevant ads to consumers.
-3.2
-Current Policy is not Working
-Overview of current protections The current legal landscape sur-
-rounding the privacy of mobile data collection is a generaly passive one except
-in certain circumstances. The Federal Trade Commission (FTC) is the agency
-responsible for bringing suits against companies that do not abide by privacy
-law. Of course their powers only go as far as current statutes allow. There
-are only a few statutes that can be applied to the issues of smartphone data
-collection as it occurs in the context of advertising purposes.
-9Initially, in an attempt to better understand the industry [?] and possibly
+3.1
+Current Policy and Legislation
+The current legal landscape surrounding the privacy of mobile data collection
+is a generally passive one except in certain circumstances. The Federal Trade
+Commission (FTC) is the agency responsible for bringing suits against compa-
+nies that do not abide by privacy law. Of course their powers only go as far as
+current statutes allow. There are only a few statutes that can be applied to the
+issues of smartphone data collection as it occurs in the context of advertising
+purposes.
+Initially, in an attempt to better understand the industry [6] and possibly
 to induce companies to publish privacy policies, the FTC carried out a criminal
 investigation on mobile app developers under the pretenses of the Computer
 Fraud and Abuse Act (CFAA). In particular, the investigation centered around
-the question of weather the collection of a users personal information through
+the question of whether the collection of a user’s personal information through
 smartphone applications without the user’s notice or consent could be consid-
-ered computer fraud. Ultimately the investigation did not lead to any suits,
-however it did prompt mobile app developers to take the issue of publishing
-privacy policies more seriously not sure .
+ered computer fraud. Ultimately, the investigation did not lead to any suits,
+however, it did prompt mobile app developers to take the issue of publishing
+privacy policies more seriously.
 One case where the FTC had success in bringing actions against mobile
 data collection, was in a case involving the Children’s Online Privacy Pro-
 tection Act (COPPA). The act requires parental consent before collecting or
 sharing any information about any child under the age of 13. The lawsuit
 identified a number of companies that clearly marketed their applications to
 children and then collected emails and allowed users, mainly children, to post
-to the internet in the form of blogs among other things [17]. The defendants
+to the Internet in the form of blogs among other things [27]. The defendants
 quickly settled to the tune of $50,000.
-Why notice and choice is pursued For the general case of tracking
-adults through application use however, the FTC does not seem to want
-to push its weight around. Although the FTC states five principals in
-regards to fair information practices, notice/awareness, choice/consent, ac-
-cess/participation, integrity/security and enforcement/redress, they have, in
-practice not pursued them equally with the same rigor. In part due to a recog-
-nition of the importance of the free flow of information in today’s economy [?]
-they have fallen back, almost entirely, to upholding the principals of notice and
-choice. Also, the commission’s concept of notice includes in it common themes
-of many other fair information privacy principals such as the APEC privacy
-framework’s collection limitation and uses of personal information which limits
-the collection and use of personal data to only that which is relevant [?]. In
-other words, the FTC punts on the concepts of fair use and collection by allow-
-ing notices to waive them. Effectually, the commission’s approach allows for
-contractual like notices, that can contain anything the drafting party desires,
-no matter how “unfair” the practices [18].
-10In practice, the FTC has encouraged companies and mobile app developers
-to publish privacy policies. This has been apparently for practical purposes
-because the main mode of enforcement that the commission has used is going
-after companies that have violated their terms of service or privacy policies.
-What else can I say..
-Failures of notice and choice The theory of notice and choice for pro-
-tecting consumer privacy is a wonderful solution to a very real problem. How-
-ever, when applied to mobile applications, its practical implementation is truly
-horrendous. Notices are often full of legal jargon and verbose to the point that
-many consumers do not bother to read them [?]. They also frequently are
-not even seen by the consumer, instead implicitly agreed upon through using
-the application ( NOT SURE). The concept of choice is also troubling. The
-only mechanism of choice that a user is given with regards to the useage of
-an application, is to not use that application. Assuming that the user chooses
-not to use that application based solely on its policies on personal informa-
-tion, there is nearly never an alternative to that application that differs only
-in this way. Thus, the privacy concerned user makes not only the choice to
-not use the app, but the choice to not use any application that offers a similar
-service get sloan’s source .
+For the general case of tracking adults through application use however,
+the FTC does not seem to want to push its weight around. Although
+the FTC states five principals in regards to fair information practices, no-
+tice/awareness, choice/consent, access/participation, integrity/security and
+enforcement/redress, they have, in practice not pursued them equally with
+9the same rigor. In part due to a recognition of the importance of the free flow
+of information in today’s economy [28] they have fallen back, almost entirely,
+to upholding the principals of notice and choice. Also, the commission’s con-
+cept of notice includes in it common themes of many other fair information
+privacy principals such as the APEC privacy framework’s collection limitation
+and uses of personal information which limits the collection and use of per-
+sonal data to only that which is relevant [29]. In other words, the FTC punts
+on the concepts of fair use and collection by allowing notices to waive them.
+Effectually, the commission’s approach allows for contractual like notices, that
+can contain anything the drafting party desires, no matter how “unfair” the
+practices [29].
+In practice, the FTC has a limited arsenal of weaponry to combat the
+privacy issues raised on smartphones. The enforcement strategy that they
+have adopted has been to encouraged companies and mobile app developers
+to publish privacy policies and then to pursue those entities that violate their
+policies.
+3.2
+Failures of notice and choice
+The theory of notice and choice for protecting consumer privacy is a wonderful
+solution to a very real problem. However, when applied to mobile applications,
+its practical implementation is truly horrendous. Notices are often full of
+legal jargon and verbose to the point that many consumers do not bother
+to read them [30]. They also frequently are not even seen by the consumer,
+instead implicitly agreed upon through using the application. Furthermore,
+applications are not required to post privacy policies and many applications
+simply do not [11]. This sums to a situation where the user of the app is unable
+to make an informed decision on whether to accept the trade-off of allowing
+access to personal information with the service of the app.
+Even if notices are provided and clear, the implementation of choice is also
+troubling. The only mechanism of choice that a user is given when confronted
+with an application that does not align with their privacy preferences is to
+not use that application. Assuming that the user chooses not to use that
+application based solely on its privacy policies, there is rarely an alternative to
+10that application that differs only in the way it handles privacy. For instance,
+if a consumer wishes use Amazon as their mobile, online shopping outlet, but
+disagrees with it’s terms of service or privacy policy, there are not likely to
+be any other online shopping applications that offer their services without
+burdening the user to agree to a similar privacy policy [31]. Thus, the privacy
+concerned user makes not only the choice to not use the app, but the choice
+to not use any application that offers a similar service.
+Ideally, notice and choice would allow consumers to make informed de-
+cisions about the services and third parties that they expose their data to.
+Consumers would be aware of the complex ways that their data would pro-
+mulgate through the advertising ecosystem and could more readily make an
+informed decision to consent or deny those practices without being barred from
+the service in the case of the latter outcome. Unfortunately, the ideal is far
+from achieved in practice as noted earlier, and we are left with a void of con-
+sumer awareness and a lack of any meaningful choice and instead consumers
+use applications and allow them to collect their personal data through passive
+acquiescence [32].
 4
-prescription
-Introduction It would not make for reasonable or practical regulation to
-force all application developers to adopt strong privacy measures as many firms
-make a significant amount of revenue from these sources, likewise, it would not
-suffice to do nothing and let the current situation stand as it is. Some users,
-needless to say, would not mind giving up their personal data for the trade-off
-of using an application, in these situations the current scheme works fine, what
-is not acceptable however, are privacy concerned users who wish to use an ap-
-plication’s service and are dubiously coaxed into agreeing to that applications
-information practices which do not align with his/her expectations. Further-
-more, the demand placed on privacy concerned applications by these users is
-not a strong enough market force to incite change in the industry. Policy must
-11step in to shift this sub-optimal norm to one that satisfies all parties.
-Because constructing any sweeping regulation in the mobile data space
-would greatly hinder technological advancement [?], and certainly, legislation
-should never be tied down to specific technologies,
-One of the reasons it is difficult to form good regulation around the issue
-of personal data collection is because the situation is not a binary good vs evil
-system. There are many forms of personal data collection that are required for
-a service to run correctly and for keeping state of a user through a workflow.
-FTC should push vendors to regulate apps
-4.1
+Prescription
+Care must be taken when approaching the mobile ecosystem through the leg-
+islative lens of privacy control. Certainly, draconian measures that would limit
+application developers from collecting any personal information would be dev-
+astating to the industry. Many applications must use this type of data for
+the legitimate purposes of creating accounts for users and providing other ser-
+vices. On the other hand, the current legal climate of notice and choice is not
+sufficient in protecting the privacy of consumers in the mobile realm. Further-
+more, with the lack of consumer awareness, the demand placed on privacy is
+not a strong enough market force to cause change in the mobile application
+industry. Therefore, policy in conjunction with consumer advocates must step
+in to better protect consumer privacy on the smartphone.
+114.1
 Dangers of Explicit Statutes
 One danger that must be mentioned when addressing any regulation regarding
 the gathering of smartphone data is the possible societal impacts of limiting
-the use of such data. Certainly, not all data mining is evil. Many impor-
-tant discoveries and innovations would not have been possible withouth the
-unrestricted access to personal data.
+the use of such data. Certainly, not all data uses are evil. Many important dis-
+coveries and innovations would not have been possible without the unrestricted
+access to personal data.
 In one case, researchers at Harvard School of Public Health carried out a
-study in Kenya that consisted of analysing the location data of nearly 15 million
-mobile phones to try and understand the infection patterns of malaria [19]. The
-study found that human travel carried the infection more so than travel by
-mosquitoes, and that the spread of the infection followed stable patterns every
-year. Ultimately, the study identified areas where malaria treatment centers
-would be most effective, and infection rates have gone down %25 since 2000
-due targeted prevention.
-Certainly, some uses of mobile data can benifit an entire population, and as
-such, any policy should not block the legitimate uses of personal, mobile data
-when the user consents to its use. Of course, certain measures should be in
-place to ensure that the individuals consent to the use of that data, and that
-when it is collected, it is only used for the intended purposes, and is secure
-such that no leakage occurs that could harm the individual.
-124.2 Building on Existing Statutes to Protect Mobile
-Data
-Fortunately, there are already in place a number of statutes regarding the
-security of data sets containing personal data.
-4.3
+study in Kenya that consisted of analyzing the location data of nearly 15 mil-
+lion mobile phones to try and understand the infection patterns of malaria [33].
+The study found that human travel carried the infection more so than travel
+by mosquitoes, and that the spread of the infection followed stable patterns
+every year. Ultimately, the study identified areas where malaria treatment
+centers would be most effective, and infection rates have gone down %25 since
+2000 due targeted prevention.
+Clearly, some uses of mobile data can benefit an entire population, and as
+such, any policy implemented should not block the legitimate uses of personal,
+mobile data when the user consents to its use. As a result, legislation should
+emphasize the prevention of harm in the use of personal data and not crimi-
+nalize the mere ownership of personal data sets as long as they were acquired
+through legitimate processes.
+4.2
 Technological Solution
 Any regulation that uses specific, technological requirements in its language
 would become anachronistic rather quickly as technology advances. Thus, any
-statute attempting to resolve privacy issues through smartphones specifically
-should be avoided. Instead, the FTC can use its influence to push recommen-
-dations and best practices onto the mobile ecosystem in order to achive an
-industry regulated market. Possibly under threat of creating what is known
-as a Trade Rule, the FTC could push mobile phone platforms to create better
-privacy controls for the phones that they run on. Since data collection occurs
-through the operating system of the mobile phone via permissioned access to
-specific data sets, the operating system is in the best position to block the
-application of these data.
-Apple’s IOS 6 has made great progress in this direction, offering users a
+statute attempting to resolve privacy issues specific to smartphones should be
+avoided. Instead, the FTC can use its influence to push recommendations
+and best practices onto the mobile ecosystem in order to achive an industry
+regulated atmosphere.
+Possibly under threat of creating what is known as a Trade Rule, the FTC
+could push mobile phone platforms to create better privacy controls for the
+phones that they run on. Since data collection occurs through the operating
+system of the mobile phone via permissioned access to specific data sets, the
+operating system is in the best position to block the application of these data.
+12Apple’s IOS 6 has made great progress in this direction, offering users a
 privacy control panel. The panel options start with the different types of data
 that may be collected, location and contacts for example, and upon tapping
 a specific data type, IOS 6 shows the user all the applications that request
-access to that data. The user can then, app by app, grant or revoke access to
-that application’s use of the data.
-This kind of control is applauded by privacy advocates and is exactly the
-kind of innovative solutions that only the platform providers can provide.
-The very existence of this kind of control would allow consumers to be
-more aware of the data collection practices of certian applications. Currently,
-Android users are only made aware of the types of data that an application will
-collect when they initially download the application. As mentioned previously,
-the user typically does not pay attention to these notices nor have a choice
-other than to be excluded from using the service that the application provides if
-they disagree with the practices. With good privacy controls in place however,
-13the mechanism of notice and choice becomes more effective because the user
-can choose to still use the application, but in a way that retains her privacy
-preferences.
-As the consumer is more easily able to deny applications the data that they
-request, application will be pushed to make more clear and consice arguments
-for the use of that data. In this way, users will become more aware of the value
-that their data holds and a norm will develop around personal, mobile data
-that makes it more clear to the consumer that that data is valueable. This, in
-turn, would push application developers to make better offers to consumers to
-user their data.
-4.4
+access to that data. The user can then, app by app, grant or revoke access
+to that application’s use of the data. This kind of control is applauded by
+privacy advocates and models exactly the kind of innovative solutions that
+only the operating system creators can provide. The very existence of this
+kind of control would allow consumers to be more aware of the data collection
+practices of certain applications.
+Currently, Android users are only made aware of the types of data that
+an application will collect when they initially download the application. As
+mentioned previously, the user typically does not pay attention to these notices
+nor have a choice other than to be excluded from using the service that the
+application provides if they disagree with the practices. With good privacy
+controls in place however, the mechanism of notice and choice becomes more
+effective because the user can choose to still use the application, but in a way
+that retains her privacy preferences.
+As the consumer is more easily able to deny applications the data that
+they request, application will need to make more clear and concise arguments
+for the use of that data in order to persuade the consumer to grant access to
+personal data sets. This approach has the extra benefit of making notices more
+human readable since now the drafting party is creating the notice directly for
+the consumer and not for a lawyer. It follows then, that users will become
+more aware of the value that their data holds and thus will be able to make a
+more informed choice.
+
 Regulatory Solution
 While this type of technological approach works great to protect consumers
 against data leakage from specific data sets such as location data, it is inher-
-intly limited by the technology that implements it. Of course any data that
+ently limited by the technology that implements it. For instance, any data that
 the user supplies to the application directly, username, email, date of birth or
-application useage statistics, cannot be blocked by the operating system. This
-type of limitation would be too sweeping and make it extreamely difficult for
-application developers to create useful applications. Another area that any
-technological approach could not influence is the process of what happens to
-the personal data after it has been collected. These holes in the solution beg
-resolution through regulation.
-These problems are also good candidates for regulation because any regu-
-lation passed in this light would have benifits that carry through more than
-just the mobile world. Consider privacy regulation on personal data would to
-to the online tracking practices of the current day.
+application usage statistics for example, cannot be blocked by the operating
+system short of cutting off network usage from the application. However, if
+this type of limitation where implemented it would make it extremely difficult
+for application developers to create useful applications as many applications
+fundamentally require access to the network.
+Another area that any technological approach could not influence is the
+process of what happens to personal data after the point of collection. If an
+application user decides to allow some app access to her location data in order
+to get directions home, she would be offered no protection against how that
+data is used in the future. These holes in the solution beg resolution through
+regulation.
+Suggestions on Policy formation
+The focus on notice and choice in the United States for dealing with privacy
+issues in the mobile realm have resulted in a legal climate that emphasizes
+bureaucratic legislation which places extra costs on consumers and business,
+instead of encouraging enhanced privacy protection . What is required, is
+a shift in the enforcement strategy undertaken by the FTC to promote the
+fair use of collected personal information, rather than the current approach
+of promoting privacy policies and then bringing allegations against companies
+who offend their policies.
+Spelling out the exact components required for effective legislation is be-
+yond the scope of this paper. Fortunately, encouraging work is being done
+with respect to privacy legislation in what has become known as the Con-
+sumer Data Bill of Rights . In this report, seven privacy principals are
+detailed pertaining to the commercial use of personal data. I will outline the
+suggestions in that report and try to extend them to cover any issues that may
+be novel to the smartphone.
+Any legislation dealing with data collected through a smart phone should
+make the distinction between personally identifiable and anonymized data.
+Here, personally identifiable, would mean any data connected to a name, email
+address, device unique identifier or any other information that could link the
+data to a specific person or device. Furthermore, no legislation should be
+put forth that attempts to regulate the use of anonymous data due to the
+problematic externalities that would arise from such a practice. Anonymous
+data is often used for research that is beneficial to society with no harm to
+the individuals that provide the data  Also, by its nature, anonymous
+data could never be used to collect damages if a company was to violate any
+legislation surrounding the use of such data since it could not be proven to
+actually belong to a plaintiff. Therefore, any statute constructed should only
+deal with personally identifiable information.
+Currently, applications do not need to publish a privacy policy, they are
+only encouraged by the FTC to do so. To improve transparency, policy should
+be put in place to require any application or service that uses personal data
+to create a privacy policy and obtain consent from the user before collecting
+data. To avoid any chilling effect that such regulation may have on startup
+companies, a clause could be added which excludes any application or service
+with less than 10,000 users from abiding.
+To promote the enhancement of privacy protection within the commercial
+realm, the FTC should be given enforcement grounds to pursue companies
+who do not adequately secure the personal data that they collect. Statutes
+could be put in place that create liability for companies whose data sets are
+compromised in conjunction with appropriate negligence in securing that data.
+Consumers should also be protected against the long term, and unintended
+uses of their personal data. Any privacy legislation should consider enact-
+ing a proper way of allowing consumers to dispose of personal data sets from
+applications upon the termination of their accounts or services. Given the
+complexities of the mobile and online advertising ecosystem, it would be in-
+credibly difficult to ensure that all traces of personal data collected through a
+specific application are appropriately deleted. In light of this fact, the mech-
+anism of notice will need to be sufficient in informing the consumer that any
+data shared with third parties would not fall under this regulation.
+
+Notable Current Developments
+Currently, there is some encouraging debates and conversations happening in
+the legislative sector with regards to mobile privacy. One such development
+is a bill introduced by representative Hank Johnson called the Application
+Privacy, Protection, and Security (or APPS) Act. This bill would make notices
+of privacy procudures mandatory for mobile applications, provide opt-out and
+deletion measures to consumers, and put in place statutes for the security of
+any collected personal data
+Also, the Obama administration has put forth what it is reffering to as the
+Consumer Data Bill of Rights. It contains legislative suggestions to congress
+which specify the core pricipals that are common to many other fair informa-
+tion privacy practices . It will be interesting to see if any privacy legislation
+materializes out of that report.
+
+Conclusion
+If consumers are made aware of the privacy implications in a simple and trans-
+parent notice and then given a choice that does not bar them from participating
+in mobile services, the theory of notice and choice would be more aligned with
+its use in practice. The combination of a more privacy concerned mobile op-
+erating system market and appropriate personal data regulation will result in
+a much more private experience for the average smartphone user.

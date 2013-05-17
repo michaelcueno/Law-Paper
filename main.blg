@@ -3,50 +3,60 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: biblio.bib
-Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "adn2012"
-Warning--I didn't find a database entry for "Source"
-Warning--I didn't find a database entry for "wsj2011"
-Warning--I didn't find a database entry for "56"
-Warning--I didn't find a database entry for "apec"
-Warning--I didn't find a database entry for "???"
 Warning--empty author in Priv2013
 Warning--empty journal in Abi2012
+Warning--empty journal in tracking
 Warning--empty journal in meeker
+Warning--empty journal in whattheyknow
+Warning--empty journal in imei
+Warning--empty journal in mobilevsapp
+Warning--empty journal in screensize
+Warning--empty journal in obtrusive
+Warning--empty author in square
+Warning--empty title in square
+Warning--empty author in square-privacy
+Warning--empty title in square-privacy
+Warning--empty journal in adnext
 Warning--empty journal in adage
 Warning--empty author in interactive_media
 Warning--empty journal in ftc2011
+Warning--empty note in privacy-online
+Warning--empty journal in policies
+Warning--empty journal in sloan
 Warning--empty journal in unlock
-You've used 20 entries,
+Warning--empty journal in billofrights
+Warning--empty author in hank
+Warning--empty author in obama
+You've used 36 entries,
             1791 wiz_defined-function locations,
-            565 strings with 6606 characters,
-and the built_in function-call counts, 2528 in all, are:
-= -- 226
-> -- 92
+            619 strings with 9199 characters,
+and the built_in function-call counts, 4426 in all, are:
+= -- 386
+> -- 155
 < -- 0
-+ -- 43
-- -- 23
-* -- 90
-:= -- 483
-add.period$ -- 68
-call.type$ -- 20
-change.case$ -- 19
++ -- 74
+- -- 38
+* -- 163
+:= -- 818
+add.period$ -- 117
+call.type$ -- 36
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 130
-empty$ -- 238
-format.name$ -- 23
-if$ -- 528
+cite$ -- 60
+duplicate$ -- 234
+empty$ -- 426
+format.name$ -- 38
+if$ -- 922
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 13
-newline$ -- 111
-num.names$ -- 18
-pop$ -- 43
+int.to.str$ -- 36
+missing$ -- 23
+newline$ -- 192
+num.names$ -- 30
+pop$ -- 96
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 46
+skip$ -- 89
 stack$ -- 0
 substring$ -- 0
 swap$ -- 7
@@ -54,8 +64,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 18
-width$ -- 22
-write$ -- 212
-(There were 14 warnings)
+warning$ -- 24
+while$ -- 30
+width$ -- 38
+write$ -- 360
+(There were 24 warnings)

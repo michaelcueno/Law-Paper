@@ -1,30 +1,17 @@
 \contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {subsection}{\numberline {1.1}Why should we care?}{3}
 \contentsline {section}{\numberline {2}Background}{4}
 \contentsline {subsection}{\numberline {2.1}Evolution of Behavioral Tracking}{4}
-\contentsline {paragraph}{The migration to smart phones}{4}
 \contentsline {subsection}{\numberline {2.2}Technical Discussion of Behavioral Tracking on SmartPhones}{4}
 \contentsline {paragraph}{Web Browsing vs. Application Data.}{5}
 \contentsline {subsection}{\numberline {2.3}Novel Issues to the Smartphone Case}{6}
 \contentsline {paragraph}{Small screen size}{6}
-\contentsline {paragraph}{Very personal}{7}
-\contentsline {paragraph}{Conclusion}{8}
 \contentsline {section}{\numberline {3}Evaluation}{8}
-\contentsline {subsection}{\numberline {3.1}Something Needs To Be Done}{8}
-\contentsline {paragraph}{Users are weary of tracking}{8}
-\contentsline {paragraph}{Growth patterns}{9}
-\contentsline {paragraph}{Privacy Dangers}{9}
-\contentsline {subsection}{\numberline {3.2}Current Policy is not Working}{9}
-\contentsline {paragraph}{Overview of current protections}{9}
-\contentsline {paragraph}{Why notice and choice is pursued}{10}
-\contentsline {paragraph}{Failures of notice and choice}{11}
-\contentsline {section}{\numberline {4}prescription}{11}
-\contentsline {paragraph}{Introduction}{11}
-\contentsline {paragraph}{FTC should push vendors to regulate apps}{12}
+\contentsline {subsection}{\numberline {3.1}Current Policy and Legislation}{9}
+\contentsline {subsection}{\numberline {3.2}Failures of notice and choice}{10}
+\contentsline {section}{\numberline {4}Prescription}{11}
 \contentsline {subsection}{\numberline {4.1}Dangers of Explicit Statutes}{12}
-\contentsline {subsection}{\numberline {4.2}Building on Existing Statutes to Protect Mobile Data}{13}
-\contentsline {subsection}{\numberline {4.3}Technological Solution}{13}
-\contentsline {subsection}{\numberline {4.4}Regulatory Solution}{14}
+\contentsline {subsection}{\numberline {4.2}Technological Solution}{12}
+\contentsline {subsection}{\numberline {4.3}Regulatory Solution}{13}
 \contentsline {paragraph}{Suggestions on Policy formation}{14}
-\contentsline {paragraph}{Concrete effects on smart phone privacy}{15}
-\contentsline {section}{\numberline {5}Conclusion}{15}
+\contentsline {subsection}{\numberline {4.4}Notable Current Developments}{15}
+\contentsline {section}{\numberline {5}Conclusion}{16}

@@ -44,10 +44,48 @@ TRUSTe.
 \newblock available at:
   http://www.truste.com/us-consumer-confidence-index-2013/, Jan 2013.
 
+\bibitem{tracking}
+Julia Angwin.
+\newblock The web's new gold mine: Your secrets.
+\newblock July 2010.
+\newblock available at:
+  http://online.wsj.com/article/SB10001424052748703940904575395073512989404.html.
+
 \bibitem{Cens2012}
 Berkeley Law.
 \newblock Web privacy cencus.
 \newblock available at: http://www.law.berkeley.edu/privacycensus.htm, 2012.
+
+\bibitem{meeker}
+Mary Meeker.
+\newblock 'internet trends'.
+\newblock May 2012.
+\newblock available at: http://www.kpcb.com/insights/2012-internet-trends.
+
+\bibitem{Thru2010}
+Scott Thurm and Yukari Kane.
+\newblock 'your apps are watching you'.
+\newblock {\em The Wall Street Journal}, Dec 2010.
+\newblock available at:
+  http://online.wsj.com/article/SB10001424052748704694004576020083703574602.html.
+
+\bibitem{whattheyknow}
+Herb Weisbaum.
+\newblock Who's watching you online? ftc pushes 'do not track' plan.
+\newblock 2012.
+
+\bibitem{imei}
+Brain~X. Chen.
+\newblock Cellphone thefts grow, but the industry looks the other way.
+\newblock May 2013.
+\newblock available at: http://www.cnbc.com/id/100700503.
+
+\bibitem{ftcnotices}
+FTC~Staff Report.
+\newblock Protecting consumer privacy in an era of rapid change: A proposed
+  framework for businesses and policymakers.
+\newblock available at: www.ftc.gov/os/2012/03/120326privacyreport.pdf, Mar
+  2012.
 
 \bibitem{Trust2013b}
 Kevin Trilli.
@@ -65,11 +103,41 @@ Johnathan Mayer.
 \newblock available at: http://webpolicy.org/2012/02/17/safari-trackers/, Feb
   2012.
 
-\bibitem{meeker}
-Mary Meeker.
-\newblock 'internet trends'.
-\newblock May 2012.
-\newblock available at: http://www.kpcb.com/insights/2012-internet-trends.
+\bibitem{mobilevsapp}
+Natasha Lomas.
+\newblock The app economy is in rude health, says flurry, but mobile browsers
+  are being squeezed by facebook.
+\newblock April 2013.
+\newblock available at: http://techcrunch.com/2013/04/03/apps-vs-mobile-web/.
+
+\bibitem{screensize}
+Darrell Etherington.
+\newblock Study: Average display size climbing on all devices except for mobile
+  pcs.
+\newblock Oct 2012.
+\newblock available at:
+  http://techcrunch.com/2012/10/16/study-average-display-size-climbing-on-all-devices-except-for-mobile-pcs/.
+
+\bibitem{obtrusive}
+David Murphy.
+\newblock Mobile advertising intrusive and largely ignored.
+\newblock 2011.
+\newblock available at:
+  http://mobilemarketingmagazine.com/content/mobile-advertising-intrusive-and-largely-ignored.
+
+\bibitem{square}
+This is outlined in the future plans for the payment system, Square. See Jack
+  Dorsey's talk (founder of Square) at:
+  http://www.youtube.com/watch?v=2zoeiNBdPdo.
+
+\bibitem{square-privacy}
+See Sqaure's privacy policy page at https://squareup.com/legal/privacy.
+
+\bibitem{adnext}
+Byoungjip Kim, Jin-Young Ha, et~al.
+\newblock Adnext: a visit-pattern-aware mobile advertising system for urban
+  commercial complexes.
+\newblock 2011.
 
 \bibitem{adage}
 Jason~Del Ray.
@@ -89,19 +157,18 @@ Opera Software.
 \newblock 'the state of mobile advertising, q2 2012'.
 \newblock available at: http://business.opera.com/sma/2012/q2/, 2012.
 
-\bibitem{Thru2010}
-Scott Thurm and Yukari Kane.
-\newblock 'your apps are watchin g you'.
-\newblock {\em The Wall Street Journal}, Dec 2010.
-\newblock available at:
-  http://online.wsj.com/article/SB10001424052748704694004576020083703574602.html.
-
 \bibitem{ftc2011}
 Mamie~Kresses or~Michael~Ostheimer.
 \newblock 'mobile apps developer settles ftc charges it violated children's
   privacy rule'.
 \newblock Aug 2011.
 \newblock available at: http://www.ftc.gov/opa/2011/08/w3mobileapps.shtm.
+
+\bibitem{privacy-online}
+Fred~H. Cate.
+\newblock The privacy problem: A broader view of information privacy and the
+  costs and consequences of protecting it.
+\newblock 2003.
 
 \bibitem{fair}
 Fred~H. Cate.
@@ -115,11 +182,42 @@ Federal~Trade Commission.
   consumer data.
 \newblock comments of Ted Wham, May 2002.
 
+\bibitem{policies}
+Felicia Williams.
+\newblock Compliance to the fair information principles.
+\newblock 2006.
+\newblock avaliable at:
+  http://www.ftc.gov/os/comments/behavioraladvertising/071010feliciawilliams.pdf.
+
+\bibitem{sloan}
+Robert Sloan and Richard Warner.
+\newblock Beyond notice and choice: Privacy, norms, and consent.
+\newblock 2013.
+
 \bibitem{unlock}
 The Boston~Consulting Group.
 \newblock 'unlocking the value of personal data: From collection to usage'.
 \newblock Feb 2013.
 \newblock Location data was gathered by analyising texts and calls intercepted
   by cell phone towers (not gps).
+
+\bibitem{billofrights}
+The~White House.
+\newblock 'consumer privacy in a networked world: A framework for protecting
+  privacy and promoting innovation in the global digital economy'.
+\newblock Feb 2012.
+\newblock available at:
+  www.whitehouse.gov/sites/default/files/privacy-final.pdf.
+
+\bibitem{hank}
+Application privacy, protection and security act.
+\newblock Introduced by Rep. Johnson. More information available at:
+  http://hankjohnson.house.gov/press-release/rep-johnson-introduces-apps-act-privacy-bill.
+
+\bibitem{obama}
+Consumer data privacy in a networked world: A framework for protecting privacy
+  and promoting innovation in the global digital economy.
+\newblock available at:
+  www.whitehouse.gov/sites/default/files/privacy-final.pdf‎, Feb 2012.
 
 \end{thebibliography}
